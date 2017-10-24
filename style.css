@@ -1,41 +1,40 @@
 h1 {
+    margin: 0px;
+    padding: 0px;
     font-size: larger;
 }
 
-li {
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a{
     float: left;
-    border-right: 1px solid black;
-    border-left: 1px solid black;
-    color: rgba(75, 75, 196, 0.5);
-}
-
-li a{
-    font-family: "Lucida Console";
     display: block;
-    color: rgb(0, 0, 0);
-    padding: 8px 16px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-li a:hover{
-    background-color: orange;
-}
-
-.active{
-    background-color: orange;
+.topnav a:hover{
+    background-color: #ddd;
     color: black;
 }
 
-.navbar {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
-    background-color: rgba(255, 68, 0, 0.856);
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    position: fixed;
-    width: 100%;
+.topnav a.active {
+    background-color: rgb(241, 122, 18);
+    color: white;
 }
+
+.profile{
+    width: 10em;
+    height: auto;
+    box-sizing: border-box;
+}
+
 
 #news{
     display: inline-block;
@@ -66,22 +65,15 @@ li a:hover{
     background-color: white;
     width: 300px;
     height: 300px;
-    border: 25px solid rgba(255, 68, 0, 0.856);
-    padding: 5px;
+    border: 15px solid rgba(255, 68, 0, 0.856);
+    padding: 10px;
     margin: 25px;
-    margin-left: 0px;
-    margin-right: 53px;
 }
 
 .background{
     background-color: rgba(247, 247, 247, 0.582);
     background-image: url(./venstrelogo.png); 
     
-}
-img {
-    display: block;
-    width: 300px;
-    height: 300px;
 }
 
 .footer{
