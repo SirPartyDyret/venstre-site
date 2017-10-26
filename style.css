@@ -30,21 +30,16 @@ h1 {
 }
 
 .profile{
-    width: 10em;
+    width: 12vw;
     height: auto;
     box-sizing: border-box;
+    border: 3px solid rgb(0, 132, 255);
 }
 
 
 #news{
-    display: inline-block;
     background-color: white;
-    width: 92%;
     border: 25px solid rgba(255, 68, 0, 0.856);
-    padding: 25px;
-    margin: 40px;
-    margin-left: 0px;
-    margin-right: 0px;
 }
 
 .titles{
@@ -61,13 +56,8 @@ h1 {
 }
 
 .box{
-    display: inline-block;
     background-color: white;
-    width: 300px;
-    height: 300px;
     border: 15px solid rgba(255, 68, 0, 0.856);
-    padding: 10px;
-    margin: 25px;
 }
 
 .background{
@@ -77,10 +67,6 @@ h1 {
 }
 
 .footer{
-    position: bottom;
-    left: 0;
-    bottom: 0;
-    width: 100%;
     background-color: rgba(255, 68, 0, 0.856);
     color: black;
 }
