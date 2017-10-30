@@ -39,7 +39,8 @@ h1 {
 
 #news{
     background-color: white;
-    border: 25px solid rgba(255, 68, 0, 0.856);
+    border: 15px solid rgba(255, 68, 0, 0.856);
+    opacity: 0.9;
 }
 
 .titles{
@@ -56,13 +57,14 @@ h1 {
 }
 
 .box{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 15px solid rgba(255, 68, 0, 0.856);
+    opacity: 0.9;
 }
 
 .background{
     background-color: rgba(247, 247, 247, 0.582);
-    background-image: url(./venstrelogo.png); 
+    background-image: url(./images/venstrelogo.png); 
     
 }
 
@@ -70,4 +72,3 @@ h1 {
     background-color: rgba(255, 68, 0, 0.856);
     color: black;
 }
-
